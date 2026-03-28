@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-publish-release-package:
-    runs-on: macos-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repository
